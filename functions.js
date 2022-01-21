@@ -3,7 +3,23 @@ export const lengthString = (string) => {
     return (length >= 1 && length <= 10 ? length : "Input should have minimum 1 and maximum 10 characters")
 }
 
-const reverseString = (string) => {
+export const reverseString = (string) => {
     let revStr = [...string].reverse().join('');
     return revStr
 }
+
+export class Calculator {
+    static add(a,b){
+        return a+b
+    }
+    static subtract(a,b){
+        return a-b
+    }
+    static multiply(a,b){
+        return a*b
+    }
+    static divide(a,b){
+        return a/b
+    }
+}
+
