@@ -23,3 +23,7 @@ export class Calculator {
     }
 }
 
+export const capitalize = (string)=>{
+    let str = string.toUpperCase().slice(0,1)+string.slice(1,string.length)
+    return str
+}
