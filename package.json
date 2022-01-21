@@ -1,8 +1,13 @@
 {
   "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "babel-eslint": "^10.1.0",
     "jest": "^27.4.7"
   },
   "scripts": {
     "test": "jest"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0"
   }
 }

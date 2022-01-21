@@ -1,5 +1,5 @@
-const sum = require('./functions.js');
+import {lengthString} from './functions.js';
 
 test('string hammas length is 6', () => {
-  expect(sum('hammas')).toBe(6);
+  expect(lengthString('hammas')).toBe(6);
 });
